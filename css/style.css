@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+      background-color: #083b4c;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+      color: white;
+      margin: 0.7em 0;
+      text-align: center;
+      font-size: 5em;
+  }
   
   .container {
     display: flex;
