@@ -7,13 +7,13 @@ for (let i = 1; i <= 100; i++) {
     div.append(i);
     container.append(div);
     if  (i % 3 == 0 && i % 5 == 0){
-        div.classList.add('red');
+        div.style.backgroundColor = '#f0466f';
         div.innerHTML = 'fizzbuzz';
     } else if (i % 5 == 0) {
-        div.classList.add('yellow');
+        div.style.backgroundColor = '#ffd166';
         div.innerHTML = 'buzz';
     } else if (i % 3 == 0) {
-        div.classList.add('green');
+        div.style.backgroundColor = '#0bd6a0';
         div.innerHTML = 'fizz';
     }
 }
