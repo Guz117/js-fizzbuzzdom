@@ -17,3 +17,18 @@ for (let i = 1; i <= 100; i++) {
         div.innerHTML = 'fizz';
     }
 }
+
+const body = document.querySelector('body');
+
+body.style.backgroundColor = '#083b4c';
+body.style.fontFamily = 'Roboto';
+
+const title = document.querySelector('.title')
+const hUno = document.createElement('h1');
+title.append(hUno);
+hUno.innerHTML = 'FizzBuzzDOM';
+
+hUno.style.color = 'white';
+hUno.style.margin = '0.7em 0';
+hUno.style.textAlign = 'center';
+hUno.style.fontSize = '5em';
